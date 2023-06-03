@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{ 
+    padding: 10px;
+    background-color: white;
+    font-size: 33px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 33px;
+    
+}
+header li, h1 {
+    display: inline;
+}
+header li{
+    margin-right: 8px;
+}
+header img{
+    height: 50px;
+
+    
+}
+.nav a{
+text-decoration: none;
+color: black;
+
+}
+.eles li a{
+    text-decoration: none;
+    
+}
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;   
+    margin-right: 9px;
+}
+
+header .nav  a{
+    font-weight: 400;
+    margin-right: 9px;
+}
+
+.container{
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.eles  {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 11px;    
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+    
+}
+.eles a{
+    color: gray;
+}
+#head {
+    background-color: gray;
+    padding-bottom: 30px;
+}
+#head li{
+    display: inline-block;
+}
+#head nav{
+    display: flex;
+    justify-content:flex-end;
+
+}
+#head img{
+    height: 30px;
+    margin-left: 9px;
+}
+#area a{
+    color: blue;
+    font-weight: 700;
+}
+.vamo img{
+    width: 99%;
+    margin-bottom: 39px;
+}
+.vamo h1{
+    position: absolute;
+    top: 60%;
+    left: 200px;
+}
+    .ed li{
+        display: inline;
+    }
+    
+    .ed ul{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 39px;
+    }
+    .ed h1{
+        font-size: 16px;
+        display: block;
+        margin: 10px;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+    .ed ul a{
+        text-decoration: none;
+    }
+    
+    .lindo{
+        background-color:rgb(104, 104, 189);
+        color: aliceblue;
+        font-size: 17px;
+        border-radius: 7px;
+        align-items: center;
+        position: relative;
+        left: 90px;
+        font-family: Arial, Helvetica, sans-serif;
+    }   
